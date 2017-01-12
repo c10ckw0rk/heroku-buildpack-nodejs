@@ -22,8 +22,6 @@ install_node_modules() {
   else
     echo "Skipping (no package.json)"
   fi
-
-  npm rebuild node-sass
 }
 
 rebuild_node_modules() {
